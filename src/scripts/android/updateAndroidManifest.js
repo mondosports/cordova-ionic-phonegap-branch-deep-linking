@@ -16,7 +16,7 @@
     var mainActivityIndex = getMainLaunchActivityIndex(manifest['manifest']['application'][0]['activity'])
 
     // update manifest
-    manifest = updateMultidex(manifest)
+    // manifest = updateMultidex(manifest)
     manifest = updateBranchMetaData(manifest, preferences)
     manifest = updateBranchReferrerTracking(manifest)
     manifest = updateLaunchOptionToSingleTask(manifest, mainActivityIndex)
