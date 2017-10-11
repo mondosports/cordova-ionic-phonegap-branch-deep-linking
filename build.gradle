@@ -6,7 +6,7 @@ android {
 
 dependencies {
   // multidex for frameworks
-  compile 'com.android.support:multidex:1.0.1'
+
   // Branch sdk
   compile 'io.branch.sdk.android:library:2+'
   // Branch app indexing
